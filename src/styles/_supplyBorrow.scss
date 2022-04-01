@@ -1,0 +1,47 @@
+.supply-borrow {
+  h1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #3e954a;
+  }
+
+  .healthBorder {
+    background: #FFFFFF;
+    border: 1px solid #3e954a;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3e954a;
+    .healthFactor {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}
+
+.token-bridge-launch{
+  a{
+    
+    color:black!important;
+    font-family: "Rubik", sans-serif;
+    font-style: italic;
+  }
+  div{
+    display: flex;
+    align-items: center;
+    text-align: center !important;
+
+  }
+}
+.token-bridge-launch-logo{
+  display:inline-flex !important;
+  text-align: center !important;
+  vertical-align: text-bottom !important;
+  width: 100px !important;
+  // width: 10% !important;
+}

@@ -1,126 +1,82 @@
 <template>
-  <div class="landing container">
-    <v-row class="d-flex align-center justify-center">
-      <v-col cols="6">
-        <v-row>
-          <h1>Join the DeFi revolution on the MIDeFi Network</h1>
-        </v-row>
-        <v-row class="my-3 simple-text-2">
-          Enjoy the possibilities that Open Finance offers in a safe, clear and understandable way
-        </v-row>
-        <!-- <v-row class="d-flex align-start">
-          <v-btn class="ma-0 button" rounded color="#3e954a" @click="scrollToTop">
-            Go to rLending Dapp</v-btn>
-        </v-row> -->
-      </v-col>
-      <v-col cols="6" class="hidden-sm-and-down justify-center align-center">
-        <img class="landing-1" src="https://www.marketindicator.app/assets_files/roadmap-illustration2.png" alt="" />
-      </v-col>
+  <div class="landing">
+    <div class="topvar d-flex align-center flex-column">
+      <p class="topvar-text-1">Find the right place to invest your crypto</p>
+      <img id="object1" src="../assets/landing/hero.png" alt="" />
+      <img id="object2" src="../assets/landing/crypto.png" alt="" />
+      <p class="topvar-text-2">
+        MIDEFI is an algorithmic distributed protocol which allows users to borrow and lend crypto
+        currencies
+      </p>
+      <button class="button">Invest today</button>
+    </div>
+    <v-row class="secvar">
+      <p class="sec-text-1">As easy as 1,2,3</p>
+      <p class="sec-text-2">Connect your wallet and start earning money in a few steps</p>
+      <img id="object3" src="../assets/landing/frame1.png" />
+      <img id="object4" src="../assets/landing/frame2.png" />
+      <v-row class="d-flex align-center justify-center sec-image">
+        <v-col
+          cols="3"
+          class="d-flex align-center justify-center flex-column"
+          style="padding-bottom: 30px"
+        >
+          <img src="../assets/landing/all.png" />
+          <p class="sec-text-3">Connect Wallet</p>
+        </v-col>
+        <v-col cols="3" class="d-flex align-center justify-center flex-column">
+          <img src="../assets/landing/find.png" />
+          <p class="sec-text-4">
+            Use our simple interface to supply or borrow from markets in a few clicks
+          </p>
+        </v-col>
+        <v-col cols="3" class="d-flex align-center justify-center flex-column">
+          <img src="../assets/landing/grow.png" />
+          <p class="sec-text-5">
+            Supply tokens to earn interest with no risk, you can withdraw them whenever you want
+          </p>
+        </v-col>
+      </v-row>
     </v-row>
-    <v-row class="my-6 d-flex justify-center">
-      <div class="my-6 divider"></div>
-    </v-row>
-    <v-row class="d-flex align-center">
-      <v-col class="d-flex justify-center">
-        <img src="https://www.marketindicator.app/assets_files/roadmap-illustration1.png" alt="" />
-      </v-col>
-      <v-col>
-        <v-row class="text-right">
-          <h2>Experience the basics of lending and borrowing assets</h2>
-        </v-row>
-        <v-row class="my-6 text-right simple-text-2">
-          Explore what you can do with your crypto assets and be part of the change to a more
-          financially inclusive world
-        </v-row>
-        <!--<v-row class="d-flex flex-row-reverse">
-          <v-btn class="ma-0 button" rounded color="#3e954a" @click="scrollToTop">
-           Go to top and Connect!
-          </v-btn>
-        </v-row> -->
-      </v-col>
-    </v-row>
-    <v-row class="my-6 d-flex justify-center">
-      <div class="my-6 divider"></div>
-    </v-row>
-    <v-row class="ma-0 text-center">
-      <v-col>
-        <v-row class="d-flex justify-center">
-          <h2>As easy as 1, 2, 3</h2>
-        </v-row>
-        <v-row class="my-6 simple-text-2 d-flex justify-center">
-          Connect your wallet and start earning money in a few steps
-        </v-row>
-      </v-col>
-    </v-row>
-    <v-row class="my-6 text-center">
-      <v-col>
-        <v-row class="d-flex justify-center mx-6">
-          <h4>1. Connect</h4>
-        </v-row>
-        <v-row class="d-flex justify-center mx-6">
-          We support Metamask and Nifty Wallet. More coming soon!
-        </v-row>
-      </v-col>
-      <v-col>
-        <v-row class="d-flex justify-center mx-6">
-          <h4>2. Supply and Borrow</h4>
-        </v-row>
-        <v-row class="d-flex justify-center mx-6">
-          Use our simple interface to supply or borrow from markets in a few clicks
-        </v-row>
-      </v-col>
-      <v-col>
-        <v-row class="d-flex justify-center mx-6">
-          <h4>3. Earn</h4>
-        </v-row>
-        <v-row class="d-flex justify-center mx-6">
-          Supply tokens to earn interest with no risk, you can withdraw them whenever you want
-        </v-row>
-      </v-col>
-    </v-row>
-    <v-row class="my-6 py-6 d-flex justify-center">
-      <div class="divider"></div>
-    </v-row>
-    <v-row class="my-6 text-center">
-      <v-col>
-        <v-row class="d-flex justify-center">
-          <h2>Say goodbye to unexpected collateral liquidations</h2>
-        </v-row>
-        <v-row class="my-4 d-flex justify-center" :style="{ whiteSpace: 'pre-wrap' }">
-          Introducing <strong>Health Factor</strong>, a way for you to keep an eye on the state of
-          your loans
-        </v-row>
-        <v-row class="my-6 py-6 d-flex justify-center">
-          <v-card class="health-card">
-            <v-row>
-              <v-col class="mx-3 px-6">
-                <v-row class="health-card-title"> Health Factor: </v-row>
-                <v-row>
-                  <div class="divider-card"></div>
-                </v-row>
-                <v-row class="health-card-text"> Your account has a low risk of liquidation </v-row>
-              </v-col>
-              <v-col class="d-flex justify-center">
-                <v-progress-circular
-                  :rotate="270"
-                  :size="100"
-                  :width="15"
-                  :value="95"
-                  color="#6FCF97"
-                >
-                  <span>95%</span>
-                </v-progress-circular>
-              </v-col>
-            </v-row>
-          </v-card>
-        </v-row>
-        <v-row class="d-flex justify-center">
-          <v-btn class="button" rounded color="#3e954a" @click="scrollToTop">
-            Go to top and connect!
-          </v-btn>
-        </v-row>
-      </v-col>
-    </v-row>
+    <div class="container">
+      <v-row class="d-flex align-center justify-center">
+        <v-col cols="5" class="simp">
+          <v-row class="text-2">
+            <p>Join the DeFi revolution on the MIDeFi Network</p>
+          </v-row>
+          <v-row class="my-3 simple-text-2">
+            Enjoy the possibilities that Open Finance offers in a safe, clear and understandable way
+          </v-row>
+        </v-col>
+        <v-col cols="4" class="hidden-sm-and-down justify-center align-center">
+          <img
+            class="landing-1"
+            src="https://www.marketindicator.app/assets_files/roadmap-illustration2.png"
+            alt=""
+          />
+        </v-col>
+      </v-row>
+
+      <v-row class="d-flex align-center justify-center">
+        <v-col cols="6" class="simp">
+          <img
+            src="https://www.marketindicator.app/assets_files/roadmap-illustration1.png"
+            alt=""
+            width="400px"
+            height="422.86px"
+          />
+        </v-col>
+        <v-col cols="4" class="hidden-sm-and-down justify-center align-center">
+          <v-row class="text-2">
+            <p>Experience the basics of lending and borrowing assets</p>
+          </v-row>
+          <v-row class="my-3 simple-text-2">
+            Explore what you can do with your crypto assets and be part of the change to a more
+            financially inclusive world
+          </v-row>
+        </v-col>
+      </v-row>
+    </div>
   </div>
 </template>
 
@@ -142,6 +98,42 @@ export default {
         button.click()
       }
     },
+    sayhello() {
+      alert('Hello')
+    },
   },
 }
 </script>
+
+<style>
+#object1 {
+  position: absolute;
+  left: 67.5%;
+  right: 8.88%;
+  top: 8.27%;
+  bottom: 84.69%;
+
+  mix-blend-mode: luminosity;
+}
+#object2 {
+  position: absolute;
+  left: 0%;
+  right: 65.42%;
+  top: 7.78%;
+  bottom: 70.09%;
+}
+#object3 {
+  position: absolute;
+  width: 107px;
+  height: 87px;
+  left: 97px;
+  top: 1186px;
+}
+#object4 {
+  position: absolute;
+  width: 120px;
+  height: 98px;
+  left: 1300px;
+  top: 800px;
+}
+</style>

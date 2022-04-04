@@ -21,9 +21,8 @@
           <h2 id="ctokensContracts">cTokens:</h2>
           <p>
             cTokens are the primary means of interacting with the
-            <strong>MIDefi</strong> Protocol; when a user mints, redeems, borrows, repays a
-            borrow, liquidates a borrow, or transfers cTokens, she will do so using the cToken
-            contract.
+            <strong>MIDefi</strong> Protocol; when a user mints, redeems, borrows, repays a borrow,
+            liquidates a borrow, or transfers cTokens, she will do so using the cToken contract.
           </p>
           <p>
             There are currently two types of cTokens: CErc20 and CRBTC. Though both types expose the

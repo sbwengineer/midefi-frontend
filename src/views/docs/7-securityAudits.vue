@@ -36,11 +36,11 @@
           <p>
             As Compound is recognized to be one of the most audited and secure DEFI platforms
             deployed to the Ethereum Network, we decided to build up on it&#39;s basis and improve
-            on the key aspects required in order to deploy on the MIDefi Network. Our development team,
-            alongside third-party auditors and consultants, has invested considerable effort to
-            create a protocol that we believe is safe and dependable. All contract code and balances
-            are publicly verifiable. Developers and security researchers are eligible for a bug
-            bounty for reporting undiscovered vulnerabilities.
+            on the key aspects required in order to deploy on the MIDefi Network. Our development
+            team, alongside third-party auditors and consultants, has invested considerable effort
+            to create a protocol that we believe is safe and dependable. All contract code and
+            balances are publicly verifiable. Developers and security researchers are eligible for a
+            bug bounty for reporting undiscovered vulnerabilities.
           </p>
           <p>
             If you are interested in reading the auditor&#39;s report, you can find it
@@ -60,8 +60,8 @@
             abuses.
           </p>
           <p>
-            <strong>MIDefi</strong> started with partially decentralized control of the protocol.
-            In effect, the multi-signature smart contract protects the <strong>MIDefi</strong>,
+            <strong>MIDefi</strong> started with partially decentralized control of the protocol. In
+            effect, the multi-signature smart contract protects the <strong>MIDefi</strong>,
             requiring the agreement of several accounts in order to perform significant changes that
             affect the platform.
           </p>

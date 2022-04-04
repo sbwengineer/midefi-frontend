@@ -297,11 +297,15 @@ export default class Middleware {
       )
       const underlyingPriceBN = new BigNumber(underlyingPrice.toString()).div(this.factor)
 
-      const [err, cTokenBalance, borrowBalance, exchangeRateMantissa] =
-        cTokenContract.interface.decodeFunctionResult(
-          'getAccountSnapshot',
-          results.returnData[i * 2 + 1],
-        )
+      const [
+        err,
+        cTokenBalance,
+        borrowBalance,
+        exchangeRateMantissa,
+      ] = cTokenContract.interface.decodeFunctionResult(
+        'getAccountSnapshot',
+        results.returnData[i * 2 + 1],
+      )
       const cTokenBalanceBN =
         Number(err) === 0 ? new BigNumber(cTokenBalance.toString()) : new BigNumber(0)
       const borrowBalanceBN =

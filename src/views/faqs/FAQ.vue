@@ -59,8 +59,8 @@
               cryptocurrency for another. Instead, at a high level, <strong>MIDefi</strong> is a
               financial permissionless lending system built on the
               <a href="https://www.rsk.co" target="_blank">RSK Network</a>.
-              <strong>MIDefi</strong> enables users to lend and borrow popular cryptocurrencies
-              like <strong>RSK Smart Bitcoin</strong> and
+              <strong>MIDefi</strong> enables users to lend and borrow popular cryptocurrencies like
+              <strong>RSK Smart Bitcoin</strong> and
               <a href="https://coinmarketcap.com/currencies/tether/" target="_blank">USDT</a> in
               exchange for interest or debt.
             </p>
@@ -138,9 +138,9 @@
           <section>
             <h2 id="howProfit">How much does using MIDefi cost?</h2>
             <p>
-              <strong>MIDefi doesn't charge users.</strong> The project was built on the basis for
-              a more inclusive, stronger, smarter, non-custodial, and trustless distributed
-              ecosystem in the <a href="https://www.rsk.co" target="_blank">RSK Network</a>.
+              <strong>MIDefi doesn't charge users.</strong> The project was built on the basis for a
+              more inclusive, stronger, smarter, non-custodial, and trustless distributed ecosystem
+              in the <a href="https://www.rsk.co" target="_blank">RSK Network</a>.
             </p>
             <p>
               As more projects like <strong>MIDefi</strong> emerge, it becomes easier and more
@@ -199,10 +199,10 @@
             </p>
             <p>
               Once you have your testnet funds (T-rBTC or t-RIF), head over to
-              <a href="https://test.rlending.app" target="_blank">https://test.MIDefi.app</a>.
-              Click on the blue boton at the top right corner. From there, users are prompted to
-              connect their <a href="#getWallet">web3 wallet</a> (in this example we are using Nifty
-              but Metamask is also supported)
+              <a href="https://test.rlending.app" target="_blank">https://test.MIDefi.app</a>. Click
+              on the blue boton at the top right corner. From there, users are prompted to connect
+              their <a href="#getWallet">web3 wallet</a> (in this example we are using Nifty but
+              Metamask is also supported)
             </p>
             <p>
               Once connected, you will see the
@@ -566,8 +566,8 @@
           <section>
             <h2>The website looks weird on my mobile phone:</h2>
             <p>
-              Yes, while in Beta, the MIDefi platform is not designed to be used on mobile phones
-              or tablets. Using a PC with a web browser is recommended.
+              Yes, while in Beta, the MIDefi platform is not designed to be used on mobile phones or
+              tablets. Using a PC with a web browser is recommended.
             </p>
           </section>
           <section>
@@ -575,8 +575,8 @@
             <p>
               This is most likely due to a missconfiguration of the web3 wallet. We recommend you
               follow <a href="#mainnet">these steps</a>. If you are still unable to connect, feel
-              free to <a href="mailto:support@MIDefi.app" target="_blank">email us</a> or reach
-              out to us over
+              free to <a href="mailto:support@MIDefi.app" target="_blank">email us</a> or reach out
+              to us over
               <a href="https://t.me/MIDefiCommunity" target="_blank"> Telegram.</a>
             </p>
           </section>
@@ -624,8 +624,8 @@
             <h2 id="support">How do I contact Support?</h2>
             <p>
               You can reach out to us on any of our social media. You can
-              <a href="mailto:support@MIDefi.app" target="_blank">email us</a> or reach out to us
-              on <a href="https://twitter.com/r_lending" target="_blank">Twitter</a>. You might also
+              <a href="mailto:support@MIDefi.app" target="_blank">email us</a> or reach out to us on
+              <a href="https://twitter.com/r_lending" target="_blank">Twitter</a>. You might also
               want to join us on
               <a href="https://t.me/rLendingCommunity" target="_blank"> Telegram.</a>
             </p>

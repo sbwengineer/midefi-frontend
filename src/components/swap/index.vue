@@ -3,12 +3,12 @@
     <!-- <h2>Swap</h2> -->
     <v-flex class="mt-3 d-flex flex-row">
       <v-text-field
+        v-model="amountInput"
         class="mr-3"
         style="font-size: 24px"
         solo
         rounded
         large
-        v-model="amountInput"
         inputmode="decimal"
         autocomplete="off"
         autocorrect="off"
@@ -56,12 +56,12 @@
     </div>
     <v-flex class="mt-3 d-flex flex-row">
       <v-text-field
+        v-model="amountOutput"
         class="mr-3"
         style="font-size: 24px"
         solo
         rounded
         large
-        v-model="amountOutput"
         inputmode="decimal"
         autocomplete="off"
         autocorrect="off"

@@ -15,39 +15,38 @@
       </v-system-bar>
       <br />
     </div>
-    <v-app-bar class="app-bar ma-5" color="transparent" flat clipped-left>
-      <v-toolbar flat fill-height align-center m-0 p-0>
+
+    <v-app-bar class="app-bar" flat clipped-left>
+      <v-toolbar flat fill-height align-center class="top">
         <v-app-bar-nav-icon
           v-if="$route.path.includes('doc') || $route.path.includes('faq')"
           class="hidden-md-and-up"
           @click.stop="emitCloseDrawer"
         ></v-app-bar-nav-icon>
         <v-btn large text class="title-button" @click="gotToLanding">
-          <v-app-bar-title>
-            <h2 v-show="isTestnet" class="red--text text--darken-1">Testnet</h2>
-          </v-app-bar-title>
           <v-img class="title-logo" :src="require(`@/assets/mi.png`)" alt="rLending logo" />
+          <v-img class="title-logo" :src="require(`@/assets/market.png`)" alt="rLending logo" />
         </v-btn>
         <v-spacer></v-spacer>
 
-        <v-toolbar-items v-if="isLogged" class="hidden-sm-and-down align-center">
-          <v-btn text to="/myActivity" active-class="is-active" exact>Dashboard</v-btn>
-          <v-btn text to="/supplyBorrow" active-class="is-active" exact>Supply/Borrow</v-btn>
-          <v-btn text to="/swap" active-class="is-active" exact>Swap</v-btn>
-          <v-btn text to="/status" active-class="is-active" exact>Markets</v-btn>
-          <v-btn text to="/docs/introduction" active-class="is-active" exact>Docs</v-btn>
-          <v-btn text to="/faq" active-class="is-active" exact>FAQs</v-btn>
+        <v-toolbar-items v-if="isLogged" class="hidden-sm-and-down align-center text">
+          <button @click="$router.push('/myActivity')">Dashboard</button>
+          <button @click="$router.push('/supplyBorrow')">Supply/Borrow</button>
+          <button @click="$router.push('/swap')">Swap</button>
+          <button @click="$router.push('/status')">Markets</button>
+          <button @click="$router.push('/docs/introduction')">Docs</button>
+          <button @click="$router.push('/faq')">FAQ</button>
           <v-btn rounded outlined class="disconnected-btn">
             {{ accountCutOff }}
           </v-btn>
         </v-toolbar-items>
 
-        <v-toolbar-items v-if="!isLogged" class="hidden-sm-and-down align-center">
-          <v-btn text to="/" active-class="is-active" exact>Home</v-btn>
-          <v-btn text to="/status" active-class="is-active" exact>Markets</v-btn>
-          <v-btn text to="/docs/introduction" active-class="is-active" exact>Docs</v-btn>
-          <v-btn text to="/faq" active-class="is-active" exact>FAQs</v-btn>
-          <v-btn
+        <v-toolbar-items v-if="!isLogged" class="hidden-sm-and-down align-center text">
+          <button @click="$router.push('/')">Home</button>
+          <button @click="$router.push('/status')">Markets</button>
+          <button @click="$router.push('/docs/introduction')">Docs</button>
+          <button @click="$router.push('/faq')">FAQ</button>
+          <button
             id="connectButton"
             ref="connectButton"
             style="background-color: green !important"
@@ -56,8 +55,9 @@
             @click="connect"
           >
             Connect wallet
-          </v-btn>
+          </button>
         </v-toolbar-items>
+
         <v-toolbar-items class="hidden-md-and-up align-center">
           <v-menu bottom left>
             <template v-slot:activator="{ on, attrs }">
@@ -169,6 +169,7 @@ export default {
         this.validateNetwork(chainId)
         // const rLoginResponse = await this.$rLogin.connect()
 
+        console.log(window.ethereum)
         const provider = new ethers.providers.Web3Provider(window.ethereum, 'any')
         await provider.send('eth_requestAccounts', [])
 

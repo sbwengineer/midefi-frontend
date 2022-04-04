@@ -88,8 +88,8 @@
             messages and to respond to your comments, questions and customer service requests;
           </li>
           <li class="mb-4">
-            Communicate with you about products, services, offers, and events offered by MIDeFi
-            and others, and provide news and information we think will be of interest to you;
+            Communicate with you about products, services, offers, and events offered by MIDeFi and
+            others, and provide news and information we think will be of interest to you;
           </li>
           <li class="mb-4">
             Monitor and analyze trends, usage and activities in connection with our Services; and
@@ -180,12 +180,12 @@
         <p>
           If you are a resident of the EEA, when we process your personal data we will only do so in
           the following situations: We need to use your personal data to perform our
-          responsibilities under our contract with you (e.g., providing the MIDeFi services you
-          have requested). We have a legitimate interest in processing your personal data. For
-          example, we may process your personal data to send you marketing communications, to
-          communicate with you about changes to our Services, and to provide, secure, and improve
-          our Services. You have consented to the processing of your personal data for one or more
-          specific purposes.
+          responsibilities under our contract with you (e.g., providing the MIDeFi services you have
+          requested). We have a legitimate interest in processing your personal data. For example,
+          we may process your personal data to send you marketing communications, to communicate
+          with you about changes to our Services, and to provide, secure, and improve our Services.
+          You have consented to the processing of your personal data for one or more specific
+          purposes.
         </p>
       </section>
       <section>

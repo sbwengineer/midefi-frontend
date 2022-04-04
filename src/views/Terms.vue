@@ -9,15 +9,15 @@
     <section>
       <h3 class="mb-4">Terms of Service</h3>
       <p>
-        Welcome to https://www.marketindicator.app, a website-hosted user interface (the “Interface” or “App”)
-        provided by The MIDefi Team. (“we”, “our”, or “us”). The Interface provides access to a
-        decentralized protocol on the RSK blockchain that allows suppliers and borrowers of certain
-        digital assets to participate in autonomous interest rate markets (the “Protocol”). This
-        Terms of Service Agreement (the “Agreement”) explains the terms and conditions by which you
-        ("the user") may access and use the Interface. You must read this Agreement carefully. By
-        accessing or using the Interface, you signify that you have read, understand, and agree to
-        be bound by this Agreement in its entirety. If you do not agree, you are not authorized to
-        access or use the Interface.
+        Welcome to https://www.marketindicator.app, a website-hosted user interface (the “Interface”
+        or “App”) provided by The MIDefi Team. (“we”, “our”, or “us”). The Interface provides access
+        to a decentralized protocol on the RSK blockchain that allows suppliers and borrowers of
+        certain digital assets to participate in autonomous interest rate markets (the “Protocol”).
+        This Terms of Service Agreement (the “Agreement”) explains the terms and conditions by which
+        you ("the user") may access and use the Interface. You must read this Agreement carefully.
+        By accessing or using the Interface, you signify that you have read, understand, and agree
+        to be bound by this Agreement in its entirety. If you do not agree, you are not authorized
+        to access or use the Interface.
       </p>
       <hr class="mb-6 mt-6" />
       <section>
@@ -28,10 +28,11 @@
               We reserve the right, in our sole discretion, to modify this Agreement from time to
               time. If we make any modifications, we will notify you by updating the date at the top
               of the Agreement and by maintaining a current version of the Agreement at
-              https://www.marketindicator.app/terms-of-use/. All modifications will be effective when they are posted,
-              and your continued use of the Interface will serve as confirmation of your acceptance
-              of those modifications. If you do not agree with any modifications to this Agreement,
-              you must immediately stop accessing and using the Interface.
+              https://www.marketindicator.app/terms-of-use/. All modifications will be effective
+              when they are posted, and your continued use of the Interface will serve as
+              confirmation of your acceptance of those modifications. If you do not agree with any
+              modifications to this Agreement, you must immediately stop accessing and using the
+              Interface.
             </p>
           </li>
           <li class="mb-4">
@@ -285,8 +286,8 @@
             <p>
               We will use our best efforts to resolve any potential disputes through informal, good
               faith negotiations. If a potential dispute arises, you must contact us by sending an
-              email to support@midefi.app so that we can attempt to resolve it without resorting
-              to formal dispute resolution. If we aren’t able to reach an informal resolution within
+              email to support@midefi.app so that we can attempt to resolve it without resorting to
+              formal dispute resolution. If we aren’t able to reach an informal resolution within
               sixty days of your email, then you and we both agree to resolve the potential dispute
               according to the process set forth below. Any claim or controversy arising out of or
               relating to the Interface, this Agreement, or any other acts or omissions for which

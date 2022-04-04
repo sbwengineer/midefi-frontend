@@ -85,8 +85,8 @@
             is immediately added to the balance. With each period going forward, the account balance
             gets a little bigger, so the interest paid on the balance gets bigger as well. This
             makes the
-            <strong>MIDefi Protocol</strong> a better alternative than other platforms that rely
-            on simple interest rates.
+            <strong>MIDefi Protocol</strong> a better alternative than other platforms that rely on
+            simple interest rates.
           </p>
         </section>
         <section>
@@ -106,8 +106,8 @@
           <p>
             Any rBTC address that possesses the borrowed asset may invoke the liquidation function,
             exchanging their asset for the borrower’s cToken collateral. As both users, both assets,
-            and prices are all contained within the <strong>MIDefi protocol</strong>, liquidation
-            is frictionless and does not rely on any outside systems or order-books. We encourage
+            and prices are all contained within the <strong>MIDefi protocol</strong>, liquidation is
+            frictionless and does not rely on any outside systems or order-books. We encourage
             tech-savvy users to develop bots that perform this task.
           </p>
         </section>
@@ -115,8 +115,8 @@
           <h2 id="collateral">Collateral and Collateral Factor:</h2>
           <p>
             Collateral — In order to borrow assets from the
-            <strong>MIDefi</strong> protocol, users need to first supply them as collateral. This
-            is provided using the same mint function used for supplying assets. Supplied collateral
+            <strong>MIDefi</strong> protocol, users need to first supply them as collateral. This is
+            provided using the same mint function used for supplying assets. Supplied collateral
             assets earn interest while in the protocol, but users cannot redeem or transfer assets
             while they are being used as collateral.
           </p>

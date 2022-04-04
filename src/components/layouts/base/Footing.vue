@@ -1,51 +1,45 @@
 <template>
   <div>
     <v-footer class="footer" color="lighten-1" padless>
-      <v-container fluid>
-        <v-row justify="center" class="black-footer">
-          <v-col lg="3" sm="4" cols="12" class="pl-5">
-            <a href="/" class="text-center">
-              <v-img class="logo" contain alt="rLending logo" style="color:white !important">
-                Market Indicator
-              </v-img>
-            </a>
-          </v-col>
-          <v-col lg="3" sm="4" cols="12" class="pl-5">
-            <h1>Organization</h1>
-            <a class="mt-3" href="docs/introduction"> About MIDeFi </a>
-            <a href="terms"> Terms &#38; Conditions </a>
-            <a href="privacy"> Privacy Policy </a>
-            <a href="mailto:contact@rlending.app"> Contact MIDeFi</a>
-          </v-col>
-          <v-col lg="3" sm="4" cols="12" class="pl-5">
-            <h1>Protocol</h1>
-            <a class="mt-3" href="doc"> Docs </a>
-            <a href="faq"> FAQs </a>
-            <a
-              href="https://github.com/riflending/rlending-protocol/tree/master/whitepaper/rLending-Whitepaper-v1.0.pdf"
-              target="_blank"
-            >
-              Whitepaper
-            </a>
-            <a
-              href="https://github.com/riflending/rlending-protocol/blob/master/audit/rLending_Security_Audit_Final_Report_v210303.pdf"
-              target="_blank"
-            >
-              Audits
-            </a>
-          </v-col>
-        </v-row>
+      <v-container fluid class="black-footer">
+        <v-container>
+          <v-row justify="center" class="black-footer">
+            <v-col lg="4" sm="4" cols="12" class="pl-5">
+              <h1>Company</h1>
+              <a class="mt-3" href="docs/introduction"> About us </a>
+              <a href=""> Contact us </a>
+              <a href="privacy"> Privacy Policy </a>
+              <a href=""> Terms &#38; Conditions </a>
+            </v-col>
+            <v-col lg="4" sm="4" cols="12" class="pl-5">
+              <h1>Guides</h1>
+              <a href=""> Documentation </a>
+              <a href=""> FAQ </a>
+            </v-col>
+            <v-col lg="4" sm="4" cols="12" class="pl-5">
+              <h1>Contact Us</h1>
+              <a class="mt-3" href=""> Address </a>
+            </v-col>
+          </v-row>
+        </v-container>
 
-        <v-row class="grey-footer">
-          <v-col lg="5" sm="6" cols="12" offset-lg="1" align-self="center">
-            <div class="copyright text-left">&#169; 2021 MIDeFi.</div>
+        <v-row class="copyright-text">
+          <v-col cols="5">
+            <div class="copyright text-left text-1">
+              &#169;2022 Market Indicator. All rights reserved.
+            </div>
           </v-col>
-          <v-col sm="6" cols="12" align-self="center" class="text-right pr-16">
+          <v-col cols="2" class="text-right pr-16">
+            <div class="copyright text-left text-1">Follow us on social</div>
+          </v-col>
+          <v-col cols="1" class="copyright-image">
             <a href="https://t.me/marketindicatorapp" target="_blank">
-              <v-icon class="social-icon" large>mdi-telegram</v-icon>
+              <img src="../../../assets/footing/telegram.png" />
             </a>
+          </v-col>
+          <v-col cols="1" class="copyright-image">
             <a href="https://twitter.com/marketindicato2" target="_blank">
-              <v-icon class="social-icon" large>mdi-twitter</v-icon>
+              <img src="../../../assets/footing/Medium.png" />
             </a>
           </v-col>
         </v-row>

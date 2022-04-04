@@ -2,10 +2,10 @@
   <v-card class="mx-auto">
     <v-app light class="index">
       <AppBar />
-      <v-main>
-        <v-container fluid>
+      <v-main style="padding: 0px">
+        <div class="container-fluid">
           <slot></slot>
-        </v-container>
+        </div>
       </v-main>
       <Drawer />
       <Footing></Footing>

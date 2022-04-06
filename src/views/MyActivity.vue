@@ -152,7 +152,7 @@
                       :size="150"
                       :width="25"
                       :value="healthFactor"
-                      :color="healthColor"
+                      color="#536DFE"
                     >
                       {{ accountHealth }}%
                     </v-progress-circular>

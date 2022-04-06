@@ -2,7 +2,7 @@
   <div class="borrow-item dialog">
     <v-list-item>
       <v-row class="my-5 mx-0 d-flex align-center">
-        <v-col cols="2">
+        <v-col cols="3">
           <v-row class="d-flex align-center">
             <v-col cols="6" class="pa-0 d-flex justify-end">
               <v-list-item-avatar tile size="40">
@@ -19,31 +19,26 @@
             </v-col>
           </v-row>
         </v-col>
-        <v-col cols="3">
-          <v-list-item-subtitle class="item">
-            {{ price | formatPrice }}<span class="ml-2 itemInfo">usd</span>
-          </v-list-item-subtitle>
-        </v-col>
         <v-col cols="2">
           <v-list-item-subtitle class="item">
             {{ borrowRate | formatPercentage }}
           </v-list-item-subtitle>
         </v-col>
-        <v-col cols="2" class="px-0">
+        <v-col cols="3" class="px-0">
           <v-row class="ma-0">
             <v-list-item-subtitle class="item">
               {{ borrowBalance | formatToken(token.decimals) }}
             </v-list-item-subtitle>
           </v-row>
         </v-col>
-        <v-col cols="2" class="px-0">
+        <v-col cols="3" class="px-0">
           <v-row class="ma-0">
             <v-list-item-subtitle class="item">
               <ToggleMarketButton :market="market" />
             </v-list-item-subtitle>
           </v-row>
         </v-col>
-        <v-col cols="1">
+        <!-- <v-col cols="1">
           <v-btn class="pa-0" icon @click="dialog = !dialog">
             <svg
               width="11"
@@ -55,7 +50,7 @@
               <path d="M1 1L9 16L1 31" stroke="#3e954a" stroke-width="2" stroke-linecap="round" />
             </svg>
           </v-btn>
-        </v-col>
+        </v-col> -->
       </v-row>
     </v-list-item>
     <v-divider />

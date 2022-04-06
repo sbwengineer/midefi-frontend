@@ -1,24 +1,20 @@
 <template>
-  <v-card class="borrow-list" width="50%" flat>
+  <v-card class="borrow-list" flat>
     <v-list>
       <v-list-item>
         <v-row>
+          <v-col cols="3">
+            <v-list-item-subtitle class="listTitle text">Asset</v-list-item-subtitle>
+          </v-col>
           <v-col cols="2">
-            <v-list-item-subtitle class="listTitle">Market</v-list-item-subtitle>
+            <v-list-item-subtitle class="listTitle text">APR</v-list-item-subtitle>
           </v-col>
           <v-col cols="3">
-            <v-list-item-subtitle class="listTitle">Price</v-list-item-subtitle>
+            <v-list-item-subtitle class="listTitle text">Borrowed</v-list-item-subtitle>
           </v-col>
-          <v-col cols="2">
-            <v-list-item-subtitle class="listTitle">APR</v-list-item-subtitle>
+          <v-col cols="3">
+            <v-list-item-subtitle class="listTitle text">Collateral</v-list-item-subtitle>
           </v-col>
-          <v-col cols="2">
-            <v-list-item-subtitle class="listTitle">Borrow Balance</v-list-item-subtitle>
-          </v-col>
-          <v-col cols="2">
-            <v-list-item-subtitle class="listTitle">Collateral</v-list-item-subtitle>
-          </v-col>
-          <v-col cols="1"> </v-col>
         </v-row>
       </v-list-item>
       <v-divider />
@@ -84,3 +80,16 @@ export default {
   },
 }
 </script>
+
+<style>
+.text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: black !important;
+}
+</style>

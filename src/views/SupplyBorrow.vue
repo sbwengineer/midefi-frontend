@@ -1,32 +1,28 @@
 <template>
   <div class="supply-borrow">
-    <h1 class="text-center">Invest Or Borrow In Just A Few Clicks</h1>
-    <v-row class="my-5 d-flex justify-center">
-      <div class="healthBorder d-flex justify-center">
-        <div class="mx-3">
-          Health Factor:
-          <span class="ml-2 healthFactor" :style="{ color: healthFactorColor }">
-            {{ healthFactor }}%
-          </span>
-        </div>
+    <div class="d-flex justify-center cir">
+      <v-col class="d-flex justify-center cir-image">
+        <v-progress-circular
+          :rotate="270"
+          :size="100"
+          :width="15"
+          :value="healthFactor"
+          color="#536DFE"
+        >
+          <span class="cir-text">Health<br />{{ healthFactor }}%</span>
+        </v-progress-circular>
+      </v-col>
+    </div>
+
+    <div class="d-flex justify-cnter">
+      <div class="supply">
+        <SupplyList />
       </div>
-      <v-tooltip right color="#E5E5E5">
-        <template v-slot:activator="{ on, attrs }">
-          <v-icon small class="mx-5" v-bind="attrs" v-on="on">info</v-icon>
-        </template>
-        <div class="tooltip">
-          Your Health Factor represents <br />
-          the state of your loans.
-          <span class="boldie">
-            Don't <br />
-            let it drop to <span class="redish"> 0% </span></span
-          >
-          or your <br />
-          collateral might be liquidated!
-        </div>
-      </v-tooltip>
-    </v-row>
-    <v-row class="d-flex justify-center">
+      <div class="borrow">
+        <BorrowList />
+      </div>
+    </div>
+    <!-- <v-row class="d-flex justify-center">
       <div class="toggle my-5">
         <v-btn
           :class="[currentComponent === 'SupplyList' ? 'selected' : 'notSelected']"
@@ -63,8 +59,8 @@
         @launchTx="catchTx"
         @setCalulateApr="setApr"
       />
-    </v-row>
-    <v-row class="d-flex justify-center token-bridge-launch">
+    </v-row> -->
+    <!-- <v-row class="d-flex justify-center token-bridge-launch">
       <v-banner single-line elevation="0">
         <a target="_blank" :href="getHttpTokenBridge" class="center-content">
           <v-img
@@ -79,7 +75,7 @@
           }}</a
         >
       </v-banner>
-    </v-row>
+    </v-row> -->
   </div>
 </template>
 

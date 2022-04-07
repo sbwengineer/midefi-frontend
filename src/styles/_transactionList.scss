@@ -1,11 +1,16 @@
 .transaction-list {
   h2 {
-   margin: 2%;
-   font-weight: 500;
-    font-size: 17px;
-    line-height: 18px;
-    text-transform: capitalize;
-    color: #3e954a;
+    margin: 2%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: -0.01em;
+
+    color: #000000;
   }
   a{
     color: #828282 !important;
@@ -31,5 +36,6 @@
   table tbody tr td {
     text-align: center !important;
   }
+  
   
 }

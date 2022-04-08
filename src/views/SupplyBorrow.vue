@@ -14,7 +14,7 @@
       </v-col>
     </div>
 
-    <div class="d-flex justify-cnter">
+    <div class="d-flex justify-cnter main">
       <div class="supply">
         <SupplyList />
       </div>

@@ -14,68 +14,14 @@
       </v-col>
     </div>
 
-    <div class="d-flex justify-cnter main">
-      <div class="supply">
+    <v-row class="d-flex justify-cnter main">
+      <v-col class="supply">
         <SupplyList />
-      </div>
-      <div class="borrow">
+      </v-col>
+      <v-col class="borrow">
         <BorrowList />
-      </div>
-    </div>
-    <!-- <v-row class="d-flex justify-center">
-      <div class="toggle my-5">
-        <v-btn
-          :class="[currentComponent === 'SupplyList' ? 'selected' : 'notSelected']"
-          text
-          @click="currentComponent = 'SupplyList'"
-        >
-          <span>Supply</span>
-        </v-btn>
-        <v-btn
-          :class="[currentComponent === 'BorrowList' ? 'selected' : 'notSelected']"
-          text
-          @click="currentComponent = 'BorrowList'"
-        >
-          <span>Borrow</span>
-        </v-btn>
-      </div>
+      </v-col>
     </v-row>
-    <v-row class="d-flex justify-center">
-      <v-alert
-        border="right"
-        colored-border
-        type="error"
-        elevation="2"
-        :value="!hasEnteredToSomeMarket"
-      >
-        In order to borrow in a market, you must add collateral first. You can do it by clicking on
-        the toggle button.
-      </v-alert>
-    </v-row>
-    <v-row class="d-flex justify-center">
-      <component
-        :is="currentComponent"
-        @listChange="reset"
-        @launchTx="catchTx"
-        @setCalulateApr="setApr"
-      />
-    </v-row> -->
-    <!-- <v-row class="d-flex justify-center token-bridge-launch">
-      <v-banner single-line elevation="0">
-        <a target="_blank" :href="getHttpTokenBridge" class="center-content">
-          <v-img
-            class="token-bridge-launch-logo"
-            :src="require(`@/assets/tokenbridge_logo.jpg`)"
-            alt="tokenbridge logo"
-          />
-          {{
-            currentComponent == 'SupplyList'
-              ? 'Bring your ethereum tokens '
-              : 'Cross your tokens to ethereum '
-          }}</a
-        >
-      </v-banner>
-    </v-row> -->
   </div>
 </template>
 

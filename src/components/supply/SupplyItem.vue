@@ -24,7 +24,7 @@
             {{ supplyRate | formatPercentage }}
           </v-list-item-subtitle>
         </v-col>
-        <v-col cols="3" class="px-0">
+        <v-col cols="2" class="px-0">
           <v-row class="ma-0">
             <v-list-item-subtitle class="item">
               {{ tokenBalance | formatNumber }}
@@ -51,7 +51,7 @@
             </svg>
           </v-btn>
         </v-col> -->
-        <v-col cols="3">
+        <v-col cols="5">
           <v-list-item-subtitle class="item">
             {{ price | formatPrice }}<span class="ml-2 itemInfo">usd</span>
           </v-list-item-subtitle>

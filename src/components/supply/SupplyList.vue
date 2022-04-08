@@ -9,11 +9,11 @@
           <v-col cols="2">
             <v-list-item-subtitle class="listTitle text">APR</v-list-item-subtitle>
           </v-col>
-          <v-col cols="3">
-            <v-list-item-subtitle class="listTitle text">Supplied</v-list-item-subtitle>
+          <v-col cols="2">
+            <v-list-item-subtitle class="listTitle text">Supplie</v-list-item-subtitle>
           </v-col>
-          <v-col cols="3">
-            <v-list-item-subtitle class="listTitle text">Price</v-list-item-subtitle>
+          <v-col cols="5">
+            <v-list-item-subtitle class="listTitle text price">Price</v-list-item-subtitle>
           </v-col>
         </v-row>
       </v-list-item>
@@ -86,10 +86,13 @@ export default {
   font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 150%;
   display: flex;
   align-items: center;
   color: black !important;
+}
+.price {
+  padding-left: 50px;
 }
 </style>

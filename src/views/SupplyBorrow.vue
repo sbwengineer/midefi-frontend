@@ -1,27 +1,29 @@
 <template>
   <div class="supply-borrow">
-    <div class="d-flex justify-center cir">
-      <v-col class="d-flex justify-center cir-image">
-        <v-progress-circular
-          :rotate="270"
-          :size="100"
-          :width="15"
-          :value="healthFactor"
-          color="#536DFE"
-        >
-          <span class="cir-text">Health<br />{{ healthFactor }}%</span>
-        </v-progress-circular>
-      </v-col>
-    </div>
+    <div v-if="dataLoaded">
+      <div class="d-flex justify-center cir">
+        <v-col class="d-flex justify-center cir-image">
+          <v-progress-circular
+            :rotate="270"
+            :size="100"
+            :width="15"
+            :value="healthFactor"
+            color="#536DFE"
+          >
+            <span class="cir-text">Health<br />{{ healthFactor }}%</span>
+          </v-progress-circular>
+        </v-col>
+      </div>
 
-    <v-row class="d-flex justify-cnter main">
-      <v-col class="supply">
-        <SupplyList />
-      </v-col>
-      <v-col class="borrow">
-        <BorrowList />
-      </v-col>
-    </v-row>
+      <v-row class="d-flex justify-cnter main">
+        <v-col class="supply">
+          <SupplyList />
+        </v-col>
+        <v-col class="borrow">
+          <BorrowList />
+        </v-col>
+      </v-row>
+    </div>
   </div>
 </template>
 
@@ -43,6 +45,7 @@ export default {
       currentComponent: null,
       hasEnteredToSomeMarket: true,
       transactionHash: null,
+      dataLoaded: true,
     }
   },
   computed: {
